@@ -1,0 +1,41 @@
+.MegaMain {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.MegaMain h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Mega label {
+    margin-right: 12;
+}
+
+.MegaMain button {
+    width: 70%;
+    align-self: center;
+    padding: .5rem;
+    font-size: medium;
+    color: #fff;
+    background-color: #003100;
+    border: 2px solid #005300;
+    border-radius: 2rem;
+    transition: 2s;
+}
+
+.MegaMain button:hover {
+    background-color: #006b00;
+    border: 2px solid #00aa00;
+
+}
+
+.Mega input {
+    margin-top: .5rem;
+    font-size: 1rem;
+    width: 50px;
+}
+
